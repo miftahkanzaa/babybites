@@ -15,6 +15,8 @@ const INGREDIENTS = {
   "🍼 Susu & Dairy": [
     { name: "ASI / Breast Milk", unit: "ml", kcalPer: 0.65 },
     { name: "Susu Formula", unit: "ml", kcalPer: 0.67 },
+    { name: "Susu UHT Full Cream", unit: "ml", kcalPer: 0.61 },
+    { name: "Susu UHT Low Fat", unit: "ml", kcalPer: 0.42 },
     { name: "Keju (umum)", unit: "g", kcalPer: 4.02 },
     { name: "Keju Gouda", unit: "g", kcalPer: 3.56 },
     { name: "Keju Babybel", unit: "g", kcalPer: 3.06 },
