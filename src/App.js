@@ -135,7 +135,9 @@ export default function BabyCalorieTracker() {
     return () => subscription.unsubscribe();
   }, []);
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => { if (session) loadBabies(); }, [session]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => { if (activeBaby) loadJournal(); }, [activeBaby, selectedDate]);
 
   const loadBabies = async () => {
