@@ -15,9 +15,11 @@ const INGREDIENTS = {
   "🍼 Susu & Dairy": [
     { name: "ASI / Breast Milk", unit: "ml", kcalPer: 0.65 },
     { name: "Susu Formula", unit: "ml", kcalPer: 0.67 },
-    { name: "Keju", unit: "g", kcalPer: 4.02 },
+    { name: "Keju (umum)", unit: "g", kcalPer: 4.02 },
+    { name: "Keju Gouda", unit: "g", kcalPer: 3.56 },
+    { name: "Keju Babybel", unit: "g", kcalPer: 3.06 },
     { name: "Yogurt Plain", unit: "g", kcalPer: 0.59 },
-    { name: "Mentega", unit: "g", kcalPer: 7.17 },
+    { name: "Mentega / Unsalted Butter", unit: "g", kcalPer: 7.17 },
     { name: "Santan", unit: "ml", kcalPer: 2.3 },
   ],
   "🍚 Karbohidrat": [
@@ -34,9 +36,14 @@ const INGREDIENTS = {
   "🥩 Protein Hewani": [
     { name: "Ayam Suwir", unit: "g", kcalPer: 1.65 },
     { name: "Daging Sapi", unit: "g", kcalPer: 2.5 },
+    { name: "Otak Sapi", unit: "g", kcalPer: 1.51 },
+    { name: "Bone Marrow (Sumsum)", unit: "g", kcalPer: 7.78 },
     { name: "Ikan Salmon", unit: "g", kcalPer: 2.08 },
     { name: "Ikan Tuna", unit: "g", kcalPer: 1.32 },
     { name: "Ikan Kakap", unit: "g", kcalPer: 0.92 },
+    { name: "Ikan Kembung", unit: "g", kcalPer: 1.03 },
+    { name: "Ikan Lele", unit: "g", kcalPer: 1.16 },
+    { name: "Belut", unit: "g", kcalPer: 1.85 },
     { name: "Telur Ayam", unit: "g", kcalPer: 1.55 },
     { name: "Kuning Telur", unit: "g", kcalPer: 3.22 },
     { name: "Udang", unit: "g", kcalPer: 0.85 },
@@ -54,6 +61,8 @@ const INGREDIENTS = {
     { name: "Brokoli", unit: "g", kcalPer: 0.35 },
     { name: "Bayam", unit: "g", kcalPer: 0.23 },
     { name: "Labu Kuning", unit: "g", kcalPer: 0.26 },
+    { name: "Kabocha (Japanese Pumpkin)", unit: "g", kcalPer: 0.34 },
+    { name: "Butternut Squash", unit: "g", kcalPer: 0.45 },
     { name: "Kangkung", unit: "g", kcalPer: 0.19 },
     { name: "Tomat", unit: "g", kcalPer: 0.18 },
     { name: "Buncis", unit: "g", kcalPer: 0.31 },
@@ -72,6 +81,8 @@ const INGREDIENTS = {
     { name: "Minyak Zaitun", unit: "ml", kcalPer: 8.84 },
     { name: "Minyak Kelapa", unit: "ml", kcalPer: 8.62 },
     { name: "Minyak Goreng", unit: "ml", kcalPer: 8.84 },
+    { name: "Beef Tallow (Lemak Sapi)", unit: "g", kcalPer: 9.02 },
+    { name: "Unsalted Butter", unit: "g", kcalPer: 7.17 },
   ],
 };
 
